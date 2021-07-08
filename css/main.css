@@ -241,14 +241,24 @@ footer .social-icons {
 }
 
 footer .social-icons p {
+	background-color: #527158;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+footer .social-icons p i{
+	font-size: 1.3125em;
+}
 footer .copyright {
 	margin: 20px 0;
 }
+
+
+
 
 /* HERO AREA HOMEPAGE */
 
@@ -338,7 +348,7 @@ input[type=button] {
 
 .features i {
 	font-size: 3.75em;
-        margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 /* REVIEWS*/
@@ -609,6 +619,9 @@ input[type=button] {
 		width: 62%;
 	}
 
+	.features i {
+		margin-bottom: 30px;
+	}
 	/*REVIEWS*/
 
 	.reviews article {
@@ -657,6 +670,10 @@ input[type=button] {
 		line-height: 1.285;
 	}
 
+	footer .social-icons {
+		width: 12.5em;
+		justify-content: space-between;
+	}
 	footer .copyright {
 		width: 100%;
 	}
